@@ -1,4 +1,6 @@
 import math
+import sqlite3
+from sqlite3 import Error
 def get_modifier( abScore ):
 	if not isinstance( abScore, int ):
 		raise ValueError('Not an integer.')
